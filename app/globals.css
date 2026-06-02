@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAF7F0;
+  --surface: #F2EDDE;
+  --foreground: #2A2F2A;
+  --muted-fg: #6B6F65;
+  --primary: #6B7A5A;
+  --primary-dark: #4F5A43;
+  --accent: #B47B49;
+  --accent-dark: #8E5E33;
+  --border: #D9D2C0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--primary);
+  color: #FAF7F0;
+}
+
+/* Focus-visible base */
+*:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Reduce motion respect */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Editorial hairline */
+.hairline {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--border) 20%,
+    var(--border) 80%,
+    transparent
+  );
+  height: 1px;
+}
+
+/* Subtle paper texture, optional and very light */
+.paper-grain {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(42, 47, 42, 0.025) 1px,
+    transparent 0
+  );
+  background-size: 32px 32px;
+}

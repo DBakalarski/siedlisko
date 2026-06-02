@@ -1,0 +1,25 @@
+node_modules
+.next
+out
+.env*.local
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# Local tooling
+.claude/
+
+# Build & dev artifacts
+*.log
+
+# Playwright / verification artifacts
+.playwright-mcp/
+desktop-hero.png
+desktop-full.png
+desktop-final.png
+features-view.png
+gallery-view.png
+cta-view.png
+mobile-hero.png
+mobile-hero-fixed.png
+mobile-cta.png
