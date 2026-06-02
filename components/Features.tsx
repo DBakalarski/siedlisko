@@ -8,20 +8,20 @@ const features: { icon: ReactNode; title: string; body: string; idx: string }[] 
   {
     idx: '01',
     icon: <Leaf strokeWidth={1.4} className="w-7 h-7" />,
-    title: 'Na łonie natury',
-    body: 'Otwarte pola, las za płotem i cisza, której nie kupisz w mieście. Tu rano budzi cię ptak, a wieczorem żaby przy stawie.',
+    title: 'Puszcza tuż za płotem',
+    body: 'Las pełen jagód i grzybów, pobliska stajnia z przejażdżkami konnymi i okolica, w której wciąż słychać czaple oraz żaby przy stawie.',
   },
   {
     idx: '02',
     icon: <Home strokeWidth={1.4} className="w-7 h-7" />,
-    title: 'Komfort i przytulność',
-    body: 'Drewno, len i światło z każdej strony. Wnętrze, które dba o ciebie samo — od ręcznie szytych zasłon po ciepłą podłogę.',
+    title: 'Dom dla całej grupy',
+    body: 'Dwanaście miejsc noclegowych, dwie łazienki, świetnie wyposażona kuchnia i duży wspólny stół — całe siedlisko tylko dla Was.',
   },
   {
     idx: '03',
     icon: <Coffee strokeWidth={1.4} className="w-7 h-7" />,
-    title: 'Czas na relaks',
-    body: 'Bez pośpiechu. Kawa o świcie, książka po południu, ognisko wieczorem. Plan dnia układa się sam.',
+    title: 'Wolny rytm dnia',
+    body: 'Hamak w sadzie, taras na wieczorne rozmowy, rower do najbliższej wsi. Po drodze — Olędrzy, ruda darniowa i historia okolicy.',
   },
 ];
 

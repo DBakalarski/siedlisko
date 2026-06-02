@@ -34,7 +34,7 @@ export function Nav() {
           aria-label="Siedlisko po nowemu — strona główna"
           className="-ml-1"
         >
-          <Logo size="sm" />
+          <Logo size="sm" priority />
         </a>
 
         <nav aria-label="Nawigacja główna" className="hidden md:block">

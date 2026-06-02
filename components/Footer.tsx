@@ -9,7 +9,7 @@ export function Footer() {
             <Logo size="md" />
             <p className="mt-6 max-w-sm text-sm leading-[1.7] text-muted-fg">
               Stara stodoła, nowy oddech. Miejsce na długi weekend i krótkie
-              wakacje — w sercu mazurskiej przyrody.
+              wakacje — na skraju Puszczy Pyzdrskiej.
             </p>
           </div>
 

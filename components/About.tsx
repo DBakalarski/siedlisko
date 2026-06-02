@@ -24,15 +24,17 @@ export function About() {
 
             <div className="space-y-5 text-base md:text-lg leading-[1.8] text-foreground/85">
               <p>
-                Siedlisko wyrosło z chęci zatrzymania czasu. Drewniana
-                konstrukcja, którą znaleźliśmy lata temu pod warstwą wiatru i
-                kurzu, dziś znów oddycha — zachowując belki, kamień i okna,
-                które pamiętają więcej niż my.
+                Dawne wiejskie siedlisko po gruntownym remoncie zamieniło
+                gospodarczy rytm na codzienność wypoczynku. Wygodny,
+                funkcjonalny dom z dwunastoma miejscami noclegowymi, dwiema
+                łazienkami, świetnie wyposażoną kuchnią i dużym wspólnym
+                stołem — w całości do Waszej dyspozycji.
               </p>
               <p>
-                „Po nowemu" oznacza dla nas szacunek do historii i
-                jednoczesny komfort współczesności. Len na pościeli, książki
-                na półkach, kawa o świcie. Tyle, ile potrzeba.
+                Rankiem słychać tu krzyk czapli, w południe świerszcze i
+                motyle w sadzie, a wieczorem, po dniu na rowerze, rechot
+                żab z tarasu. Tyle ciszy, ile potrzeba, by wczuć się w
+                atmosferę wsi.
               </p>
             </div>
 

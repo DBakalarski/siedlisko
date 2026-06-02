@@ -59,7 +59,7 @@ export function Hero() {
           variants={item}
           className="font-sans text-xs uppercase tracking-eyebrow text-primary mb-7"
         >
-          Agroturystyka · Mazury
+          Agroturystyka · Puszcza Pyzdrska
         </motion.p>
 
         <motion.h1
@@ -75,9 +75,9 @@ export function Hero() {
           variants={item}
           className="mt-7 mx-auto max-w-xl text-base md:text-lg leading-[1.75] text-muted-fg"
         >
-          Cisza, drewno i otwarta przestrzeń. Miejsce, do którego wraca się
-          powietrzem — odzyskana stodoła w nowoczesnym duchu, z dala od
-          miejskiego zgiełku.
+          Cisza, drewno i otwarta przestrzeń. Wiejskie siedlisko po gruntownym
+          remoncie — w całości do Waszej dyspozycji, na skraju Puszczy
+          Pyzdrskiej, z dala od miejskiego zgiełku.
         </motion.p>
 
         <motion.div
